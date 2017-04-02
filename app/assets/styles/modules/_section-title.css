@@ -18,11 +18,22 @@
         margin-bottom: 0.6rem;
 
         @mixin atSmall{
+            position: relative;
             margin-right: .5rem;
+            top: 8px;
             margin-left: 0;
             display: inline-block;
             margin-bottom: 0;
         }
 
+     }
+
+    &--testimonials{
+        font-weight: 300;
+        color: #2f5571;
+     }
+
+    &__icon-testimonials{
+        padding-right: 1.7rem;
      }
 }

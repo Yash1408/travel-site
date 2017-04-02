@@ -1,0 +1,30 @@
+.testimonial{
+    background-color: rgba(255,255,255,.8);
+    padding: 0 1.8125rem 1px 1.8125rem;
+    
+    &--photo{
+        overflow: hidden;
+        border-radius: 50%;
+        width: 160px;
+        height: 160px;
+        margin: 0 auto -80px auto;
+        position: relative;
+        top: -80px;
+        border: 6px solid rgba(255,255,255,.8);
+     }
+
+     &--title{
+        color: $mainBlue;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
+        pading: -10px;
+      }
+
+      &--subtitle{
+        color: $mainOrange;
+        text-align: center;
+        font-size: .9rem;
+       }
+}
