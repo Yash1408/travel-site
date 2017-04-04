@@ -6,9 +6,20 @@
 	margin-right: auto;
 	overflow: hidden;
 
-	&&--medium{
+	&--medium{
 		max-width: 976px;
 	}
+
+	&--no-padding-until-medium{
+		padding-left: 0;
+		margin-right: -36px;
+
+		@mixin atMedium{
+			margin-right: 9rem;
+			padding-left: 18px;
+			padding-right: 18px;
+		}
+	 }
 
 	.wrapper {
 		padding-left: 0;

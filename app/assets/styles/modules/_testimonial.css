@@ -1,7 +1,16 @@
 .testimonial{
-    background-color: rgba(255,255,255,.8);
-    padding: 0 1.8125rem 1px 1.8125rem;
-    
+        background-color: rgba(255, 255, 255, .8);
+        padding: 0 18px 1px 18px;
+        margin-bottom: 98px;
+        @mixin atMedium{
+            margin-bottom: 0;
+            padding: 0 1.8125rem 1px 1.8125rem;
+        }
+
+    &--last{
+        margin-bottom: 0;
+     }
+
     &--photo{
         overflow: hidden;
         border-radius: 50%;
@@ -26,5 +35,6 @@
         color: $mainOrange;
         text-align: center;
         font-size: .9rem;
+        margin: .25rem 1rem;
        }
 }
